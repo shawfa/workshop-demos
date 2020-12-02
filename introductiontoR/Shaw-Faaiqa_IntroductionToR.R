@@ -79,7 +79,7 @@ dataset <- read.csv("<place path to file here>", header = TRUE, stringsAsFactors
 # the final argument allows you to let R know what values you would like to designate as missing
 
 # library(readr) # advantages of this function is that it is faster in reading in big data!
-dataset = read_csv("data/example-data.csv")
+dataset <- read_csv("data/example-data.csv")
 
 # you can also read excel files using a host of packages, but my personal preference is to use csv files
 install.packages("readxl")
